@@ -7,9 +7,9 @@
     "config":{
         "details":{
             "Language": "English",
-            "Price": "Free",
+            "Price": "Freemium",
             "Restrictions": "None",
-            "TOS":"http://www.cloudflare.com/terms",
+            "TOS":"http://app.cloudpelican.com/tos",
             "has_js": true
         }, 
         "assets":{
@@ -23,30 +23,6 @@
             ]
         },
         "interface": [
-            {
-                "type": "string",
-                "id": "food",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
-                "domain_request": true,
-                "private": true
-            },
-            {
-                "type": "select",
-                "id": "lottery",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
-                "options": [
-                    {
-                        "label": "Yes, buy a ticket!",
-                        "value": "true"
-                    },
-                    {
-                        "label": "No, I am scared.",
-                        "value": ""
-                    }
-                ]
-            }
         ]
     },
     "account": {

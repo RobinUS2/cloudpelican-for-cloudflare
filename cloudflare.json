@@ -1,7 +1,7 @@
 {    
     "name": "CloudPelican",
     "description": "Analyze and monitor your application in real-time",
-    "version": "0.1",
+    "version": "0.2",
     "category": "monitoring",
     "main": "public/javascripts/app_module.js",
     "config":{
